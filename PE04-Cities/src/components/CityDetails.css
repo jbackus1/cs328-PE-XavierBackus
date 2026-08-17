@@ -1,0 +1,76 @@
+.city-details {
+  background: #fff;
+  border-radius: 12px;
+  padding: 1.75rem 2rem;
+  box-shadow: 0 1px 3px rgba(15, 23, 42, 0.08);
+  height: 100%;
+}
+
+.city-details-header {
+  display: flex;
+  align-items: baseline;
+  gap: 0.75rem;
+  border-bottom: 1px solid #e2e8f0;
+  padding-bottom: 1rem;
+  margin-bottom: 1.25rem;
+}
+
+.city-details-header h2 {
+  margin: 0;
+  font-size: 1.75rem;
+  color: #0f172a;
+}
+
+.city-details-country {
+  color: #2563eb;
+  font-weight: 600;
+  font-size: 1rem;
+}
+
+.city-details-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  gap: 1rem;
+  margin: 0 0 1.5rem;
+}
+
+.city-details-fact {
+  background-color: #f8fafc;
+  border-radius: 8px;
+  padding: 0.75rem 1rem;
+}
+
+.city-details-fact dt {
+  font-size: 0.75rem;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: #94a3b8;
+  margin-bottom: 0.25rem;
+}
+
+.city-details-fact dd {
+  margin: 0;
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: #1e293b;
+}
+
+.city-details-description {
+  line-height: 1.6;
+  color: #334155;
+}
+
+.city-details-missing {
+  text-align: center;
+  color: #64748b;
+}
+
+.city-details-back {
+  color: #2563eb;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.city-details-back:hover {
+  text-decoration: underline;
+}

@@ -1,0 +1,35 @@
+.app {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.app-content {
+  flex: 1;
+  width: 100%;
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 2rem 1.5rem 3rem;
+}
+
+.not-found {
+  text-align: center;
+  padding: 4rem 1rem;
+  color: #64748b;
+}
+
+.not-found h1 {
+  font-size: 3rem;
+  color: #0f172a;
+  margin-bottom: 0.5rem;
+}
+
+.not-found a {
+  color: #2563eb;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.not-found a:hover {
+  text-decoration: underline;
+}
